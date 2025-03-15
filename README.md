@@ -1,6 +1,6 @@
 # Tokyogruv.nvim
 
-![Tokyogruv Color Scheme Preview](https://user-images.githubusercontent.com/30515389/115807570-42385080-a3bf-11eb-8286-c981b5093ffa.png)
+![Tokyogruv Color Scheme Preview](./x.png)
 
 ### About
 
