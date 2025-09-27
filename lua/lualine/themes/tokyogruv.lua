@@ -3,7 +3,7 @@
 --
 local p = require("tokyogruv.palette")
 local colors = {
-    bg = p.bg1,
+    bg = p.bg0,
     fg = p.fg,
     red = p.red,
     green = p.green,
