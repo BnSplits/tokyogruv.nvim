@@ -14,7 +14,7 @@ local colors = {
     grey = p.grey,
 }
 
-local tokyo_dark = {
+local tokyo_gruv = {
     inactive = {
         a = { fg = colors.grey, bg = colors.bg, gui = "bold" },
         b = { fg = colors.grey, bg = colors.bg },
@@ -24,17 +24,17 @@ local tokyo_dark = {
         z = { fg = colors.grey, bg = colors.bg },
     },
     normal = {
-        a = { fg = colors.bg, bg = colors.green, gui = "bold" },
+        a = { fg = colors.green, bg = colors.bg, gui = "bold" },
         b = { fg = colors.fg, bg = colors.bg },
         c = { fg = colors.fg, bg = colors.bg },
         x = { fg = colors.fg, bg = colors.bg },
         y = { fg = colors.fg, bg = colors.bg },
-        z = { fg = colors.bg, bg = colors.green, gui = "bold" },
+        z = { fg = colors.green, bg = colors.bg, gui = "bold" },
     },
-    visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
-    replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
-    insert = { a = { fg = colors.bg, bg = colors.blue, gui = "bold" } },
-    command = { a = { fg = colors.bg, bg = colors.yellow, gui = "bold" } },
+    visual = { a = { fg = colors.purple, bg = colors.bg, gui = "bold" } },
+    replace = { a = { fg = colors.red, bg = colors.bg, gui = "bold" } },
+    insert = { a = { fg = colors.blue, bg = colors.bg, gui = "bold" } },
+    command = { a = { fg = colors.yellow, bg = colors.bg, gui = "bold" } },
 }
 
 local mt = {}
@@ -44,6 +44,6 @@ function mt:__index(k)
     end
 end
 
-tokyo_dark = setmetatable(tokyo_dark, mt)
+tokyo_gruv = setmetatable(tokyo_gruv, mt)
 
-return tokyo_dark
+return tokyo_gruv
