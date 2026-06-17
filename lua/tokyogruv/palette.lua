@@ -3,7 +3,7 @@ local utils = require("tokyogruv.utils")
 
 local palette = {
     black = "#1d2021",
-    bg0 = "#0D0D0D",
+    bg0 = "#0F0F0F",
     bg1 = "#202020",
     bg2 = "#3c3836",
     bg3 = "#504945",
