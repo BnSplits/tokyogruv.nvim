@@ -1,6 +1,6 @@
 # Tokyogruv.nvim
 
-![Tokyogruv Color Scheme Preview](./x.png)
+![Tokyogruv Color Scheme Preview](./preview.png)
 
 ### About
 
